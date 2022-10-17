@@ -47,7 +47,7 @@ function palindromeChecker(userStr, reversedStr) {
     let isPalindrome = false;
 
     // check for palindrome
-    if (reversedStr === userStr) {
+    if (reversedStr.toLowerCase() === userStr.toLowerCase()) {
       isPalindrome = true;
     }
     return isPalindrome;
